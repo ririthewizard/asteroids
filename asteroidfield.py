@@ -1,5 +1,6 @@
 import pygame
 import random
+from powerup import Powerup
 from asteroids import Asteroid
 from constants import *
 
