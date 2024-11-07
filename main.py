@@ -52,11 +52,6 @@ def main():
         
         for obj in drawable:
             obj.draw(screen)
-            for obj in range(0, 3):
-                if powerup_count < POWERUP_MAX_COUNT:
-                    tmp = Powerup((80, 80), 10)
-                    powerup_count += 1
-                
 
         pygame.display.flip()
         
